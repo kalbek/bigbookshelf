@@ -64,6 +64,9 @@ Clone this repository to your desired folder:
 
 git clone https://github.com/kalbek/bookstore.git
 
+fix es-lint errors: ```npx eslint "**/*.{js,jsx}" --fix```
+fix style-lint errors: ```npx stylelint "**/*.{css,scss}"```
+
 ### Install
 
 Install this project using the cloned repo or download and use the files to your local machine.
