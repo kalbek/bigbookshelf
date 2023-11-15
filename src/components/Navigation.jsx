@@ -4,14 +4,14 @@ const Navigation = () => (
   <>
     <header className="w-full bg-blackbg py-8">
       <div className="container mx-auto w-10/12  flex-spaced">
-        <img src="logo.svg" alt="logo" className="scale-[120%]" />
+        <img src="logo.svg" alt="logo" className="lg:scale-[120%] md:scale-[100%]" />
         <nav>
-          <ul className="flex text-white   gap-10 text-xl font-normal">
+          <ul className="hidden lg:grid lg:grid-cols-5  text-white md:grid md:grid-cols-3  lg:gap-[15%] text-xl font-normal outline   w-auto">
             <li className="">Books</li>
             <li className="">Authors</li>
-            <li className="">What to Read?</li>
-            <li className="">Gift Ideas</li>
-            <li className="">About Us</li>
+            <li className="">What&nbsp;to&nbsp;Read?</li>
+            <li className="">Gift&nbsp;Ideas</li>
+            <li className="">About&nbsp;Us</li>
           </ul>
         </nav>
         <div className="right flex justify-between gap-12">
