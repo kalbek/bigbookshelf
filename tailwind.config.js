@@ -2,7 +2,9 @@
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -14,6 +16,9 @@ module.exports = {
       },
       colors: {
         secondary: "#7a777c",
+        red: {
+          200: "#FFC0CB", // Define your shade of red
+        },
         linear: "#211c24",
         darkgray: "#f5f5f5",
         darkergray: "#353535",
@@ -23,6 +28,8 @@ module.exports = {
         philippinegray: "#909090",
         lotion: "#fafafa",
         cultured: "#f6f6f6",
+        blackbg: "#2A2C2E",
+        crayola: "#F4CE47",
       },
     },
   },

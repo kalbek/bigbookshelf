@@ -53,7 +53,7 @@ const Books = () => {
 
   return (
     <>
-      <div className="books-container">
+      <div className="books-container bg-red-700">
         {bookItems.map((book) => (
           <div key={book.item_id} className="books flex-column Lesson-Panel">
             <div className="flex-spaced">

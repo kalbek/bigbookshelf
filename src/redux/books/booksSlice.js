@@ -2,6 +2,8 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/YwCoiJn66UMzjtp0eQN5/books';
+// const apiKey = 'AIzaSyAcnkrZAwthpIRDYYpPUczH5cKvhEiBc58';
+// const googleBooks = `https://www.googleapis.com/books/v1/volumes?q=flowers+inauthor:keyes&key=${apiKey}`;
 
 const initialState = {
   bookItems: [],
