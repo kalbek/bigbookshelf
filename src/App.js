@@ -1,9 +1,10 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Books from './components/pages/Books';
-import Categories from './components/pages/Categories';
-import Header from './components/Header';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./components/pages/home/Home";
+import Books from "./components/pages/Books";
+import Categories from "./components/pages/Categories";
+import Header from "./components/Header";
+import "./App.css";
 
 const App = () => (
   <>
@@ -11,6 +12,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
+            <Route path="/" element={<Home />} />
             {/* <Route index element={<Books />} />
             <Route element={<Header />} />
             <Route path="/categories" element={<Categories />} /> */}
