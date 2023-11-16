@@ -21,6 +21,12 @@ header {
   align-items: center;
 }
 
+.flex-spaced-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 header nav ul li:hover {
   scale: 105%;
   cursor: pointer;
