@@ -2,15 +2,15 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => (
   <>
-    <header className="w-full bg-blackbg pt-6 pb-4">
-      <div className="container mx-auto gap-4 flex-spaced-start ">
+    <header className="w-full mx-auto bg-blackbg pt-6 pb-4 w-[95%] rounded-2xl mt-4 px-6">
+      <div className="container mx-auto gap-4 flex-spaced-start  ">
         <img
           src="logo.svg"
           alt="logo"
           className="lg:scale-[120%] md:scale-[100%]"
         />
         <nav>
-          <ul className="hidden lg:flex md:grid md:grid-cols-3 lg:gap-[1.5vw] md:gap-1 text-white   text-[1.4rem] font-light">
+          <ul className="hidden lg:mt-2 lg:flex md:grid md:grid-cols-3 lg:gap-[1.5vw] md:gap-1 text-white   text-[1.4rem] font-light">
             <li className="">Books</li>
             <li className="">Authors</li>
             <li className="">What&nbsp;to&nbsp;Read?</li>
