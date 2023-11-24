@@ -35,10 +35,10 @@ const Navigation = () => (
           {/* login/user section */}
           <button
             type="submit"
-            className="w-20 h-8 rounded-lg bg-crayola flex-centered px-16 py-6 hover:scale-[105%]"
+            className="  h-8 rounded-2xl bg-crayola flex-centered px-8 py-7 hover:scale-[105%]"
           >
             <a href="./users" className="text-black font-medium text-lg">
-              Login
+              LOGIN
             </a>
           </button>
         </div>
