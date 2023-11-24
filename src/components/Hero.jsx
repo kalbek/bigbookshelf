@@ -26,8 +26,8 @@ export default function Hero() {
           <div className="flex flex-col md:overflow-hidden justify-between rounded-3xl bg-black relative ">
             <img
               alt="book of the day label"
-              srcSet="bookofthedaylable.png"
-              className="absolute left-2 top-4 w-20 h-20 md:w-24 md:h-24 lg:w-36 lg:h-36  "
+              srcSet="bookofthedaylabel.svg"
+              className="absolute left-2 top-4 w-20 h-20 md:w-24 md:h-24 lg:w-36 lg:h-36"
             />
             <img
               alt="Book of the day"
