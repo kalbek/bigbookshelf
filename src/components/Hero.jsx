@@ -1,14 +1,14 @@
 export default function Hero() {
   return (
     <>
-      <div className="px-8  mx-auto">
-        <div className="text-[630%] leading-[6rem] tracking-auto font-semibold col-span-2 text-black h-fit mt-8">
+      <div className="md:px-8 px-2  mx-auto">
+        <div className="text-[330%] md:text-[630%] leading-2 md:leading-[6rem] tracking-auto font-semibold col-span-2 text-black mt-2 h-fit md:mt-8">
           READING MAKES THE WORLD HUGE
         </div>
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-4 h-[60vh] mt-12">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-4 h-[60vh] mt-4 md:mt-12">
           <div className=" flex flex-col justify-between  rounded-3xl bg-black  p-8 ">
-            <div className="flex flex-col gap-12">
-              <h1 className="text-5xl text-white w-1/2">
+            <div className="flex flex-col gap-4 md:gap-12">
+              <h1 className="md:text-5xl text-4xl text-white md:w-1/2">
                 FIND SOMETHING TO READ
               </h1>
               <p className="text-2xl font-light lg:w-3/5 w-full text-white">
@@ -18,16 +18,21 @@ export default function Hero() {
             </div>
             <button
               type="submit"
-              className=" px-10 py-6 rounded-3xl outline outline-crayola items-end text-crayola md:w-1/3 mt-4 text-lg font-medium "
+              className="py-4 md:py-6 rounded-3xl  outline outline-crayola text-center text-crayola lg:w-1/3 md:w-2/3 md:mt-4 mt-6 text-lg font-medium"
             >
-              BROWSE NOW
+              BROWSE&nbsp;NOW
             </button>
           </div>
-          <div className="flex flex-col md:overflow-hidden justify-between rounded-3xl bg-black  ">
+          <div className="flex flex-col md:overflow-hidden justify-between rounded-3xl bg-black relative ">
+            <img
+              alt="book of the day label"
+              srcSet="bookofthedaylable.png"
+              className="absolute left-2 top-4 w-20 h-20 md:w-24 md:h-24 lg:w-36 lg:h-36  "
+            />
             <img
               alt="Book of the day"
               srcSet="bookoftheday.png"
-              className="object-cover  w-full h-full   "
+              className="object-cover  w-full h-full"
             />
           </div>
         </div>
