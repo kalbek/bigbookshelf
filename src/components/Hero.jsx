@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <>
-      <div className="md:px-8 px-2  mx-auto">
+      <div className="md:px-8 px-2 mx-auto">
         <div className="text-[330%] md:text-[630%] leading-2 md:leading-[6rem] tracking-auto font-semibold col-span-2 text-black mt-2 h-fit md:mt-8">
           READING MAKES THE WORLD HUGE
         </div>
