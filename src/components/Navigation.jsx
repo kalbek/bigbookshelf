@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => (
   <>
-    <header className="  mx-auto bg-blackbg pt-6 pb-4  w-[97vw] items-center w-full rounded-2xl mt-8 px-6 overflow-hidden">
-      <div className="container mx-auto gap-4 flex-spaced-start">
+    <header className="w-[97%] mx-auto bg-blackbg pt-6 pb-4 items-center w-full rounded-2xl mt-8 px-6 overflow-hidden">
+      <div className="   container mx-auto gap-4 flex-spaced-start">
         <img
           src="logo.svg"
           alt="logo"
@@ -19,7 +19,7 @@ const Navigation = () => (
           </ul>
         </nav>
         {/* icons and login */}
-        <div className="hidden right  md:flex flex-col lg:flex-row md:flex-col gap-2  lg:gap-12  z-50">
+        <div className="hidden md:flex flex-col lg:flex-row md:flex-col gap-2  lg:gap-12  z-50">
           {/* icon sets */}
           <ul className="flex items-start flex-centered gap-8 ">
             <li>
