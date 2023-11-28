@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="text-[330%] md:text-[630%] leading-2 md:leading-[6rem] tracking-auto font-semibold col-span-2 text-black mt-2 h-fit md:mt-8">
           READING MAKES THE WORLD HUGE
         </div>
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-4 h-[60vh] mt-4 md:mt-12">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-4 h-auto mt-4 md:mt-12">
           <div className=" flex flex-col justify-between  rounded-3xl bg-blackbg  p-8 relative  md:overflow-hidden">
             <div className="flex flex-col gap-4 md:gap-12">
               <h1 className="md:text-5xl text-4xl text-white md:w-1/2">

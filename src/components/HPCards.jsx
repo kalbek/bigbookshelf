@@ -2,13 +2,9 @@ import React from "react";
 
 export default function HPCards() {
   return (
-    <div className="  w-[19%] rounded-[15px] p-3 mb-2 bg-white flex items-center justify-center gap-2 relative">
-      <img
-        alt="murakami"
-        srcSet="murakami.png"
-        className="rounded-[15px] w-1/3 h-[100%]"
-      />
-      <div className="details w-2/3 flex justify-between h-full relative">
+    <div className="rounded-[15px] p-3 mb-2 w-2/6 bg-white flex object-contain gap-2 flex-col md:flex-row relative">
+      <img alt="murakami" srcSet="murakami.png" className="rounded-[15px] " />
+      <div className="flex justify-between gap-24">
         <div className="flex flex-col h-full gap-1 justify-between">
           <div className="flex flex-col items-start">
             <p className="text-black text-xl">Murakami</p>
@@ -34,7 +30,9 @@ export default function HPCards() {
             </div>
           </div>
         </div>
-        <img srcSet="favorite.svg" alt="" className="absolute right-0" />
+        <span>
+          <img srcSet="favorite.svg" alt="" className="  -right-3 top-1   bottom-2 md:relative" />
+        </span>
       </div>
     </div>
   );
