@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => (
   <>
-    <header className="w-[97%] mx-auto bg-blackbg pt-6 pb-4 items-center w-full rounded-2xl mt-8 px-6 overflow-hidden">
+    <header className="w-[97vw] mx-auto bg-blackbg pt-6 pb-4 items-center w-full rounded-2xl mt-8 px-6 overflow-hidden">
       <div className="   container mx-auto gap-4 flex-spaced-start">
         <img
           src="logo.svg"
