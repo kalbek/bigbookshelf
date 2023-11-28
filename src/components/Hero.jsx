@@ -6,7 +6,7 @@ export default function Hero() {
           READING MAKES THE WORLD HUGE
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-4 h-[60vh] mt-4 md:mt-12">
-          <div className=" flex flex-col justify-between  rounded-3xl bg-black  p-8 ">
+          <div className=" flex flex-col justify-between  rounded-3xl bg-blackbg  p-8 relative  md:overflow-hidden">
             <div className="flex flex-col gap-4 md:gap-12">
               <h1 className="md:text-5xl text-4xl text-white md:w-1/2">
                 FIND SOMETHING TO READ
@@ -22,6 +22,9 @@ export default function Hero() {
             >
               BROWSE&nbsp;NOW
             </button>
+            <div className="absolute  right-0 bottom-0 md:right-[8.7%]  h-auto w-auto md:bottom-24 md:scale-[160%]">
+              <img alt="" srcSet="icon-search.svg" className="" />
+            </div>
           </div>
           <div className="flex flex-col md:overflow-hidden justify-between rounded-3xl bg-black relative ">
             <img
