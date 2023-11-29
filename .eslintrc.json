@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 {
   "env": {
     "browser": true,
@@ -24,6 +25,8 @@
     "import/no-unresolved": "off",
     "linebreak-style": "off",
     "no-unused-vars": "off",
+    "no-use-before-define": "off",
+    "react/prop-types": "off",
     "quotes": "off",
     "no-shadow": "off"
   },

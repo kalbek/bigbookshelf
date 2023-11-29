@@ -1,20 +1,25 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-export default function HPCards() {
+export default function HPCards({ isFirstInRow }) {
   return (
-    <div className="rounded-[15px] p-3 mb-2  w-full bg-white w-fit bg-red-400 flex h-fit object-contain gap-2 flex-col md:flex-row relative">
+    <div
+      className={`rounded-[15px] p-3 mb-2 w-full bg-white w-fit flex h-fit object-contain gap-2 flex-col md:flex-row relative ${
+        isFirstInRow ? "md:bg-red-400" : ""
+      }`}
+    >
       <img
         alt="murakami"
         srcSet="murakami.png"
         className="rounded-[15px] w-full md:w-2/5  "
       />
-      <div className="flex justify-between  ">
+      <div className="flex justify-between">
         <div className="flex flex-col h-full gap-10 justify-between">
           <div className="flex flex-col items-start">
             <p className="text-gray-800 text-3xl md:text-lg font-medium">
               Murakami
             </p>
-            <p className="text-gray-600 text-3xl md:text-lg font-semibold ">
+            <p className="text-gray-600 text-3xl md:text-lg font-semibold">
               After Dark
             </p>
           </div>
@@ -30,7 +35,7 @@ export default function HPCards() {
             </span>
           </div>
           <div className="flex gap-4 flex-wrap text-4xl md:text-2xl">
-            <div className=" text-gray-300 line-through font-medium">$15.0</div>
+            <div className=" text-gray-400 line-through font-medium">$15.0</div>
             <div className="  text-black">
               <p className="tracking-tight">$10.50</p>
             </div>
@@ -47,3 +52,6 @@ export default function HPCards() {
     </div>
   );
 }
+HPCards.propTypes = {
+  isFirstInRow: PropTypes.bool.isRequired,
+};
