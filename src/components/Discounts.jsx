@@ -9,7 +9,7 @@ const Discounts = () => (
       <div className="absolute left-[15%] bottom-1">
         <img srcSet="smallpercentage.svg" alt="" className="scale-110" />
       </div>
-      <p className="text-white text-4xl font-medium">DISCOUNTS</p>
+      <p className="text-white text-2xl md:text-4xl  font-medium">DISCOUNTS</p>
     </div>
   </>
 );

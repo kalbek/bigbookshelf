@@ -4,6 +4,7 @@ import Bestsellers from "../../Bestsellers";
 import WhatToRead from "../../WhatToRead";
 import PopularAuthors from "../../PopularAuthors";
 import DiscountsAndGifts from "../../DiscountsAndGifts";
+import Footer from "../../Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <WhatToRead />
       <PopularAuthors />
       <DiscountsAndGifts />
+      <Footer />
     </div>
   );
 }

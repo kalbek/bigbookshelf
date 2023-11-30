@@ -3,7 +3,7 @@ const PopularAuthorCards = () => (
     <img
       alt="dostoyevskiy."
       srcSet="dostoyevskiy.png"
-      className="rounded-s-[20px]  h-[20vh] w "
+      className="rounded-s-[20px]  h-full w "
     />
     <div className="flex items-start space-between gap-5 pr-2 pt-2">
       <div className="flex items-start flex-col justify-between  ">
