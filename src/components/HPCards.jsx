@@ -4,14 +4,14 @@ import PropTypes from "prop-types";
 export default function HPCards({ isFirstInRow }) {
   return (
     <div
-      className={`rounded-[15px] p-3 mb-2 w-full bg-white w-fit flex h-fit object-contain gap-2 flex-col md:flex-row relative ${
-        isFirstInRow ? "md:bg-red-400" : ""
+      className={`rounded-[40px] p-4 mb-2 w-full bg-white w-fit flex h-fit object-contain gap-2 flex-col md:flex-row relative ${
+        isFirstInRow ? "" : ""
       }`}
     >
       <img
         alt="murakami"
         srcSet="murakami.png"
-        className="rounded-[15px] w-full md:w-2/5  "
+        className="rounded-[40px] w-full md:w-2/5  "
       />
       <div className="flex justify-between">
         <div className="flex flex-col h-full gap-10 justify-between">
@@ -45,7 +45,7 @@ export default function HPCards({ isFirstInRow }) {
           <img
             srcSet="favorite.svg"
             alt=""
-            className="md:top-4  mt-2 md:mt-0 right-4 absolute scale-[120%] cursor-pointer"
+            className="md:top-6  mt-2 md:mt-0 right-6 absolute scale-[120%] cursor-pointer"
           />
         </span>
       </div>
