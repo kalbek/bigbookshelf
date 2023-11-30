@@ -3,6 +3,7 @@ import Hero from "../../Hero";
 import Bestsellers from "../../Bestsellers";
 import WhatToRead from "../../WhatToRead";
 import PopularAuthors from "../../PopularAuthors";
+import DiscountsAndGifts from "../../DiscountsAndGifts";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Bestsellers />
       <WhatToRead />
       <PopularAuthors />
+      <DiscountsAndGifts />
     </div>
   );
 }
