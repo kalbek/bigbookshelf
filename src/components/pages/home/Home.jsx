@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../../Hero";
 import Bestsellers from "../../Bestsellers";
 import WhatToRead from "../../WhatToRead";
+import PopularAuthors from "../../PopularAuthors";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Bestsellers />
       <WhatToRead />
+      <PopularAuthors />
     </div>
   );
 }
