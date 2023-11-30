@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
+import Layout from "./components/homecatagories/Layout";
 import Home from "./components/pages/home/Home";
+import Products from "./components/pages/products/Products";
 import Books from "./components/pages/Books";
 import Categories from "./components/pages/Categories";
-import Header from "./components/Header";
+import Header from "./components/homecatagories/Header";
 import "./App.css";
 
 const App = () => (
@@ -13,6 +14,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<Home />} />
+            <Route path="/products" element={<Products />} />
             {/* <Route index element={<Books />} />
             <Route element={<Header />} />
             <Route path="/categories" element={<Categories />} /> */}
