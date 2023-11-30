@@ -1,15 +1,20 @@
 import PopularAuthorCards from "./PopularAuthorCards";
 import SeeAllPopularAuthors from "./SeeAllPopularAuthors";
+import SeeAll from "./SeeAll";
 
 const PopularAuthors = () => (
   <>
-    <div className="w-full bg-blackbg p-8 flex flex-col">
+    <div className="bg-blackbg w-full my-4 h-auto px-10 pb-20">
       <h1 className="text-3xl text-white mb-6">POPULAR AUTHORS</h1>
-      <div className="flex gap-3   flex-wrap">
-        {[...Array(20)].map(() => (
+      <div className="flex flex-col gap-2 flex-wrap md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {[...Array(10)].map((_, index) => (index !== 6 ? (
           <PopularAuthorCards key={0} />
-        ))}
-        <SeeAllPopularAuthors />
+        ) : (
+          <div key={0}>
+            {" "}
+            <SeeAllPopularAuthors />
+          </div>
+        )))}
       </div>
     </div>
   </>

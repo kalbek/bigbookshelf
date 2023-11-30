@@ -2,7 +2,7 @@ import React from "react";
 
 const BestGiftBooks = () => (
   <>
-    <div className="flex justify-center items-center relative bg-blackbg rounded-[15px] w-2/3">
+    <div className="flex h-[25vh] justify-center items-center relative bg-blackbg rounded-[15px] w-full md:w-2/3">
       <div className="absolute left-[17%] scale-110 top-10">
         <img srcSet="bigstar.svg" alt="" />
       </div>

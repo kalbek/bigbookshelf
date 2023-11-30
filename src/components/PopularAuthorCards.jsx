@@ -1,9 +1,9 @@
 const PopularAuthorCards = () => (
-  <div className="rounded-[20px] bg-white w-fit flex h-fit object-contain gap-2 relative ">
+  <div className="rounded-[20px] bg-white w-fit md:w-full flex h-fit object-contain gap-2 relative ">
     <img
       alt="dostoyevskiy."
       srcSet="dostoyevskiy.png"
-      className="rounded-s-[20px] w-full md:w-2/5  "
+      className="rounded-s-[20px]  h-[20vh] w "
     />
     <div className="flex items-start space-between gap-5 pr-2 pt-2">
       <div className="flex items-start flex-col justify-between  ">
@@ -16,7 +16,7 @@ const PopularAuthorCards = () => (
         &nbsp;
       </div>
       <span>
-        <img srcSet="favorite.svg" alt="" className="cursor-pointer scale-[120%] " />
+        <img srcSet="favorite.svg" alt="" className="cursor-pointer scale-[120%]" />
       </span>
     </div>
   </div>

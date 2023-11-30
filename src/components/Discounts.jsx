@@ -2,7 +2,7 @@ import React from "react";
 
 const Discounts = () => (
   <>
-    <div className="flex h-[25vh] justify-center items-center relative bg-blackbg rounded-[15px] w-1/3">
+    <div className="flex h-[25vh] justify-center items-center relative bg-blackbg rounded-[15px] w-full md:w-1/3">
       <div className="absolute left-1 top-1">
         <img srcSet="bigpercentage.svg" className="scale-110" alt="" />
       </div>
