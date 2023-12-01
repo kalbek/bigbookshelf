@@ -24,7 +24,7 @@ const Languages = () => LanguageList.map((language) => (
       />
       <label
         htmlFor={language.id}
-        className="text-black cursor-pointer text-xl font-normal"
+        className="text-black cursor-pointer text-xl font-medium"
       >
         {language.name}
       </label>

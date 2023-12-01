@@ -3,6 +3,7 @@ import ViewAll from "./ViewResetAction";
 import PriceRangeSetter from "./PriceRangeSetter";
 import PublishingHouse from "./PublishingHouse";
 import CoverStyle from "./CoverStyle";
+import Other from "./Other";
 
 const Filter = () => (
   <>
@@ -86,6 +87,9 @@ const Filter = () => (
         COVER STYLE
       </h1>
       <CoverStyle />
+      {/* Other filter options */}
+      <h1 className="text-black font-medium text-3xl mt-10 mb-2">OTHER</h1>
+      <Other />
     </div>
   </>
 );

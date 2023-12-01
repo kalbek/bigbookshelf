@@ -13,7 +13,7 @@ const CoverStyle = () => (
         />
         <label
           htmlFor="hardcover"
-          className="text-black cursor-pointer text-xl font-normal"
+          className="text-black cursor-pointer text-xl font-medium"
         >
           Hardcover
         </label>
@@ -29,7 +29,7 @@ const CoverStyle = () => (
         />
         <label
           htmlFor="softcover"
-          className="text-black cursor-pointer text-xl font-normal"
+          className="text-black cursor-pointer text-xl font-medium"
         >
           Softcover
         </label>

@@ -21,8 +21,8 @@ const publishingHouses = [
   },
 ];
 
-const PublishingHouse = () => publishingHouses.map((house) => (
-  <div className="flex flex-col items-start -mt-3" key={0}>
+const PublishingHouse = () => publishingHouses.map((house, index) => (
+  <div className={`flex flex-col items-start ${index !== 0 ? "-mt-3" : ""}`} key={0}>
     <div className="flex gap-2 items-center">
       <input
         type="checkbox"
@@ -32,7 +32,7 @@ const PublishingHouse = () => publishingHouses.map((house) => (
       />
       <label
         htmlFor={house.id}
-        className="text-black cursor-pointer text-xl font-normal"
+        className="text-black cursor-pointer text-xl font-medium"
       >
         {house.name}
       </label>
