@@ -1,28 +1,30 @@
 const Top = () => (
-  <div className="w-full flex flex-col md:flex-row justify-between px-2 md:px-8 py-4 bg-blackbg items-start">
+  <div className="w-full flex flex-col md:flex-row justify-between px-4 md:px-8 py-4 bg-blackbg items-start">
     {/* top filter results and tags */}
-    <div className="flex justify-between w-full ">
-      <div className="flex gap-10">
+    <div className="flex justify-between  w-full pl-4">
+      <div className="flex gap-10 justify-center items-center">
         <div className="flex flex-col md:flex-row gap-2">
-          <p className="text-white">FILTER</p>
-          <p className="text-gray-600">120 results</p>
+          <p className="text-white text-xl md:text-3xl">FILTER</p>
+          <p className="text-gray-600 text-lg md:text-3xl">120 results</p>
         </div>
         {/* tags container */}
         <div className="grid grid-cols-2 md:flex gap-2 justify-start flex-wrap">
           {/* the tags */}
-          <div className="rounded-[25px] bg-black p-2 text-start">
-            <p className="text-gray-300">Reset&nbsp;all</p>
+          <div className="rounded-[25px] bg-black p-4 text-start">
+            <p className="text-gray-300 text-sm md:text-lg">Reset&nbsp;all</p>
           </div>
-          <div className="rounded-[25px] bg-gray-700 p-2 flex justify-between gap-2">
-            <p className="text-gray-200">English</p>
+          <div className="rounded-[25px] bg-zinc-700 px-3 md:px-5 py-2 md:py-4 flex justify-between items-center gap-2 w-fit">
+            <p className="text-gray-200 text-sm md:text-lg">English</p>
             <img srcSet="clearbtn.svg" alt="clear button" />
           </div>
-          <div className="rounded-[25px] bg-gray-700 p-2 flex justify-between gap-2">
-            <p className="text-gray-200">Hardcover</p>
+          <div className="rounded-[25px] bg-zinc-700 px-3 md:px-5 py-2 md:py-4 flex justify-between items-center  gap-2 w-fit">
+            <p className="text-gray-200 text-sm md:text-lg">
+              Hardcove fasdfasdr
+            </p>
             <img srcSet="clearbtn.svg" alt="clear button" />
           </div>
-          <div className="rounded-[25px] bg-gray-700 p-2 flex justify-between gap-2">
-            <p className="text-gray-200">Rib&nbsp;Knits</p>
+          <div className="rounded-[25px] bg-zinc-700 px-3 md:px-5 py-2 md:py-4 flex justify-between items-center gap-2">
+            <p className="text-gray-200 text-sm md:text-lg">Rib&nbsp;Knits</p>
             <img srcSet="clearbtn.svg" alt="clear button" />
           </div>
         </div>
