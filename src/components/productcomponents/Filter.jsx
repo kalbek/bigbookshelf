@@ -1,4 +1,5 @@
 import Languages from "./Languages";
+import ViewAll from "./ViewResetAction";
 
 const Filter = () => (
   <>
@@ -61,12 +62,8 @@ const Filter = () => (
       {/* filter by language */}
       <h1 className="text-gray-800 font-medium text-3xl mt-10">LANGUAGE</h1>
       <Languages />
-      <div className="my-2 cursor-pointer text-xl text-zinc-700">
-        <p className=" border-b">VIEW ALL</p>
-      </div>
-      <div className="my-14">
-        <u className="inline-block pb-1 border-b"> VIEW ALL</u>
-      </div>
+      {/* view all goes here ...  */}
+      <ViewAll actionName="VIEW ALL" onClick={() => console.log("displaying all languages.")} />
     </div>
   </>
 );

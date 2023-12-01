@@ -20,7 +20,7 @@ const Languages = () => LanguageList.map((language) => (
         type="checkbox"
         name=""
         id={language.id}
-        className="appearance-none h-6 w-6 rounded-1 checked:bg-transparent checked:bg-black checked:rounded-[5px] border border-gray-600  "
+        className="appearance-none h-6 w-6 rounded-1 checked:bg-transparent checked:bg-zinc-600 checked:rounded-[5px] border border-gray-600  "
       />
       <label
         htmlFor={language.id}
