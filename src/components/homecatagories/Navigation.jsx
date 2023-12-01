@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
-
 const Navigation = () => (
   <>
     <header className="w-[97vw] mx-auto bg-blackbg pt-6 pb-4 items-center w-full rounded-2xl mt-8 px-6 overflow-hidden">
-      <div className="   container mx-auto gap-4 flex-spaced-start">
+      <div className="container mx-auto gap-4 flex-spaced-start">
         <img
           src="logo.svg"
           alt="logo"
@@ -11,7 +9,10 @@ const Navigation = () => (
         />
         <nav>
           <ul className="hidden lg:mt-2 lg:flex md:grid md:grid-cols-3 lg:gap-[1.5vw] md:gap-1 text-white   text-[1.4rem] font-light">
-            <li className="">Books</li>
+            <li className="">
+              <a href="./products">Books</a>
+              {" "}
+            </li>
             <li className="">Authors</li>
             <li className="">What&nbsp;to&nbsp;Read?</li>
             <li className="">Gift&nbsp;Ideas</li>

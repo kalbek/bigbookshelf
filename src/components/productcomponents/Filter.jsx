@@ -1,15 +1,16 @@
 import Languages from "./Languages";
-import ViewAll from "./ViewResetAction";
+import ViewAllLanguages from "./ViewResetAction";
+import PriceRangeSetter from "./PriceRangeSetter";
 
 const Filter = () => (
   <>
-    <div className="w-full md:w-1/4 h-screen rounded-[30px] p-6 mb-2 bg-white  flex h-fit object-contain gap-4 flex-col  ">
-      <h1 className="text-gray-800 font-medium text-3xl">CATEGORIES</h1>
+    <div className="w-full md:w-1/4 h-auto rounded-[30px] p-6 mb-2 bg-white  flex h-fit object-contain gap-4 flex-col  ">
+      <h1 className="text-black font-medium text-3xl">CATEGORIES</h1>
       <div className="flex w-full justify-between items-center relative">
         <input
           type="text"
-          className="bg-zinc-200 rounded-[20px] w-full h-[70px] py-2 px-1 text-xl flex justify-start border-0"
-          placeholder="  FIND CATEGORY"
+          className="bg-zinc-200 rounded-[20px] pl-6 w-full h-[70px] py-2 px-1 text-xl flex justify-start border-0"
+          placeholder="FIND CATEGORY"
         />
       </div>
       <ul className="flex flex-col items-start gap-1">
@@ -39,7 +40,7 @@ const Filter = () => (
         </li>
       </ul>
       {/* filter for publish date */}
-      <h1 className="text-gray-800 font-medium text-3xl mt-10">PUBLISH DATE</h1>
+      <h1 className="text-black font-medium text-3xl mt-10">PUBLISH DATE</h1>
       <div className="flex w-full justify-between items-center relative">
         <select
           type="text"
@@ -60,10 +61,15 @@ const Filter = () => (
         </select>
       </div>
       {/* filter by language */}
-      <h1 className="text-gray-800 font-medium text-3xl mt-10">LANGUAGE</h1>
+      <h1 className="text-black font-medium text-3xl mt-10">LANGUAGE</h1>
       <Languages />
-      {/* view all goes here ...  */}
-      <ViewAll actionName="VIEW ALL" onClick={() => console.log("displaying all languages.")} />
+      <ViewAllLanguages
+        actionName="VIEW ALL"
+        onClick={() => console.log("displaying all languages.")}
+      />
+      {/* filter by price range */}
+      <h1 className="text-black font-medium text-3xl mt-10">PRICE</h1>
+      <PriceRangeSetter />
     </div>
   </>
 );
