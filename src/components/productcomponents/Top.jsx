@@ -1,5 +1,5 @@
 const Top = () => (
-  <div className="w-full flex flex-col md:flex-row justify-between px-4 md:px-8 py-4 bg-blackbg items-start">
+  <div className="w-full flex flex-col md:flex-row justify-between px-4 md:px-8 py-10 bg-blackbg items-start">
     {/* top filter results and tags */}
     <div className="flex justify-between  w-full pl-4">
       <div className="flex gap-10 justify-center items-center">
@@ -31,10 +31,30 @@ const Top = () => (
       </div>
     </div>
     {/* featured filters */}
-    <div className="flex p-2 mt-4 md:mt-0 w-full justify-between outline outline-white rounded-[15px] md:w-[20%] cursor-pointer">
-      <p className="text-white">FEATURED</p>
-      <img alt="down icon" srcSet="down.svg" />
-    </div>
+    <select
+      name=""
+      id=""
+      className="bg-inherit text-white flex p-2 md:mr-10 mt-4 md:mt-0 w-full justify-between outline outline-white outline-2 rounded-[15px] md:w-[30%] md:h-[70px] cursor-pointer "
+    >
+      <option
+        className="bg-zinc-700 text-gray-200 font-semibold py-4 text-lg"
+        value="featured"
+      >
+        FEATURED
+      </option>
+      <option
+        className="bg-zinc-700 text-gray-200 font-semibold py-4 text-lg"
+        value="new"
+      >
+        NEW
+      </option>
+      <option
+        className="bg-zinc-700 text-gray-200 font-semibold py-4 text-lg"
+        value="popular"
+      >
+        POPULAR
+      </option>
+    </select>
   </div>
 );
 
