@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ResetAll from "./ViewResetAction";
 
 const PriceRangeSetter = () => {
   // Initialize state for minimum and maximum prices
@@ -38,7 +39,7 @@ const PriceRangeSetter = () => {
             value={minPrice}
             onChange={handleMinPriceChange}
             onKeyDown={(e) => handleInputKeyPress(e, true)}
-            className="rounded-lg bg-zinc-200 p-4 w-1/3"
+            className="rounded-lg bg-zinc-200 p-4 w-1/5"
           />
           <p> to </p>
           {/* max range */}
@@ -47,7 +48,7 @@ const PriceRangeSetter = () => {
             value={maxPrice}
             onChange={handleMaxPriceChange}
             onKeyDown={(e) => handleInputKeyPress(e, false)}
-            className="rounded-lg bg-zinc-200 p-4 w-1/3"
+            className="rounded-lg bg-zinc-200 p-4 w-1/5"
           />
         </div>
         {/* Slider for minimum price */}
@@ -72,6 +73,11 @@ const PriceRangeSetter = () => {
             className="w-full -ml-1"
           />
         </div>
+        <ResetAll actionName="RESET" />
+        {/* <div className="w-1/3">
+          <Slider range step={25} min={3} max={60}
+           value={maxPrice} onChange={handleMaxPriceChange}/>
+        </div> */}
       </div>
     </>
   );
