@@ -2,6 +2,7 @@ import Languages from "./Languages";
 import ViewAll from "./ViewResetAction";
 import PriceRangeSetter from "./PriceRangeSetter";
 import PublishingHouse from "./PublishingHouse";
+import CoverStyle from "./CoverStyle";
 
 const Filter = () => (
   <>
@@ -80,6 +81,11 @@ const Filter = () => (
         actionName="VIEW ALL"
         onClick={() => console.log("displaying all publishing houses.")}
       />
+      {/* filter by cover style */}
+      <h1 className="text-black font-medium text-3xl mt-10 mb-2">
+        COVER STYLE
+      </h1>
+      <CoverStyle />
     </div>
   </>
 );
