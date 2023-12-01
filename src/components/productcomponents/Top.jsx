@@ -34,7 +34,7 @@ const Top = () => (
     <select
       name=""
       id=""
-      className="bg-inherit text-white flex p-2 md:mr-10 mt-4 md:mt-0 w-full justify-between outline outline-white outline-2 rounded-[15px] md:w-[30%] md:h-[70px] cursor-pointer "
+      className="bg-inherit text-white flex p-2 md:mr-10 mt-4 md:mt-0 w-full justify-between outline outline-white outline-2 rounded-[15px] md:w-[30%] md:h-[70px] cursor-pointer text-lg  "
     >
       <option
         className="bg-zinc-700 text-gray-200 font-semibold py-4 text-lg"

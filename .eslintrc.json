@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 {
   "env": {
     "browser": true,
@@ -26,6 +27,7 @@
     "linebreak-style": "off",
     "no-unused-vars": "off",
     "no-use-before-define": "off",
+    "jsx-a11y/label-has-associated-control": "off",
     "react/prop-types": "off",
     "quotes": "off",
     "no-shadow": "off"

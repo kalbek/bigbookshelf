@@ -11,14 +11,14 @@ const Cards = ({
   canceledPrice,
   currentPrice,
 }) => (
-  <div className="rounded-[40px] p-4 mb-2 w-full bg-white w-fit flex h-fit object-contain gap-2 flex-col  ">
+  <div className="rounded-[30px] p-2 md:p-4 mb-2 w-full bg-white w-fit flex h-fit object-contain gap-2 flex-col">
     <div className="relative">
-      <img alt={imageAlt} srcSet={image} className="rounded-[40px] w-full " />
+      <img alt={imageAlt} srcSet={image} className="rounded-[30px] w-full " />
       <span>
         <img
           srcSet="favorite.svg"
           alt=""
-          className="top-[8%] right-[8%]  absolute scale-[120%] cursor-pointer"
+          className="top-[8%] right-[8%] absolute scale-[120%] cursor-pointer"
         />
       </span>
     </div>
