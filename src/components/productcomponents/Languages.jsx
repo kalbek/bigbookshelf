@@ -14,7 +14,7 @@ const LanguageList = [
 ];
 
 const Languages = () => LanguageList.map((language) => (
-  <div className="flex flex-col items-start" key={0}>
+  <div className="flex flex-col -mt-2 items-start" key={0}>
     <div className="flex gap-2 items-center">
       <input
         type="checkbox"
@@ -24,7 +24,7 @@ const Languages = () => LanguageList.map((language) => (
       />
       <label
         htmlFor={language.id}
-        className="text-black cursor-pointer text-2xl font-normal"
+        className="text-black cursor-pointer text-xl font-normal"
       >
         {language.name}
       </label>

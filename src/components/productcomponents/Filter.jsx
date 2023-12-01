@@ -1,6 +1,7 @@
 import Languages from "./Languages";
-import ViewAllLanguages from "./ViewResetAction";
+import ViewAll from "./ViewResetAction";
 import PriceRangeSetter from "./PriceRangeSetter";
+import PublishingHouse from "./PublishingHouse";
 
 const Filter = () => (
   <>
@@ -63,13 +64,22 @@ const Filter = () => (
       {/* filter by language */}
       <h1 className="text-black font-medium text-3xl mt-10">LANGUAGE</h1>
       <Languages />
-      <ViewAllLanguages
+      <ViewAll
         actionName="VIEW ALL"
         onClick={() => console.log("displaying all languages.")}
       />
       {/* filter by price range */}
       <h1 className="text-black font-medium text-3xl mt-10">PRICE</h1>
       <PriceRangeSetter />
+      {/* filter by publishing houlse */}
+      <h1 className="text-black font-medium text-3xl mt-10">
+        PUBLISHING HOUSE
+      </h1>
+      <PublishingHouse />
+      <ViewAll
+        actionName="VIEW ALL"
+        onClick={() => console.log("displaying all publishing houses.")}
+      />
     </div>
   </>
 );
