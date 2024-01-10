@@ -6,15 +6,15 @@ const Navigation = () => (
           <div className="absolute top-1 right-1 scale-[0.3] ">
             <img src="close-icon.svg" alt="close icon" />
           </div>
-          <div className="absolute bottom-6 left-5">
+          <div className="absolute bottom-20 left-[20%]">
             <img src="logo.svg" alt="logo" className="scale-[100%]" />
           </div>
-          <ul>
-            <li>Books</li>
-            <li>Authors</li>
-            <li>What&nbsp;to&nbsp;Read?</li>
-            <li>Gift&nbsp;Ideas</li>
-            <li>About&nbsp;Us</li>
+          <ul className="absolute text-[#F4F4F4] text-xl top-[20%] left-[20%] mb-8">
+            <li className="mb-6 cursor-pointer hover:text-black">Books</li>
+            <li className="mb-6 cursor-pointer hover:text-black">Authors</li>
+            <li className="mb-6 cursor-pointer hover:text-black">What&nbsp;to&nbsp;Read?</li>
+            <li className="mb-6 cursor-pointer hover:text-black">Gift&nbsp;Ideas</li>
+            <li className="mb-6 cursor-pointer hover:text-black">About&nbsp;Us</li>
           </ul>
         </div>
       </div>
