@@ -22,7 +22,7 @@ const Preview = ({ image, authorName, bookTitle }) => (
               </p>
             </span>
           </div>
-          <div className="group-2 flex gap-6">
+          <div className="group-2 flex gap-6 font-semibold">
             <ul>
               <li>
                 <p>Category</p>
