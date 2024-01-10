@@ -66,10 +66,7 @@ const Filter = () => (
       {/* filter by language */}
       <h1 className="text-black font-medium text-3xl mt-10">LANGUAGE</h1>
       <Languages />
-      <ViewAll
-        actionName="VIEW ALL"
-        onClick={() => console.log("displaying all languages.")}
-      />
+      <ViewAll actionName="VIEW ALL" />
       {/* filter by price range */}
       <h1 className="text-black font-medium text-3xl mt-10">PRICE</h1>
       <PriceRangeSetter />
@@ -78,10 +75,7 @@ const Filter = () => (
         PUBLISHING HOUSE
       </h1>
       <PublishingHouse />
-      <ViewAll
-        actionName="VIEW ALL"
-        onClick={() => console.log("displaying all publishing houses.")}
-      />
+      <ViewAll actionName="VIEW ALL" />
       {/* filter by cover style */}
       <h1 className="text-black font-medium text-3xl mt-10 mb-2">
         COVER STYLE
