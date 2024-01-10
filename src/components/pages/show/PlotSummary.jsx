@@ -39,13 +39,13 @@ const PlotSummary = () => (
         />
       </>
       <>
-        <div className=" w-1/3 h-full flex flex-col items-start bg-lotion p-8 rounded-3xl gap-4">
+        <div className=" w-full h-full flex flex-col items-start bg-lotion p-8 rounded-3xl gap-4 ">
           <div className="flex justify-between text-right whitespace-nowrap w-[100%]">
             <p className="text-black font-medium text-2xl">RECEPTION</p>
             <img
               srcSet="right-down.svg"
               alt=""
-              className="rounded-2xl object-cover"
+              className="object-cover"
             />
           </div>
         </div>
