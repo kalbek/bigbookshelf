@@ -1,10 +1,11 @@
 import React from "react";
 import Preview from "./Preview";
 import PlotSummary from "./PlotSummary";
+import AlsoLike from "./AlsoLike";
 
 const Book = () => (
-  <div className="flex justify-center">
-    <div className="m-4 rounded-3xl h-auto bg-blackbg p-4 p-8 text-white text-lg flex flex-col w-full">
+  <div className="flex flex-col items-center m-4 bg-lighterbg ">
+    <div className="  m-4 rounded-3xl h-auto bg-blackbg p-4 p-8 text-white text-lg flex flex-col w-full">
       {/* Filter menu section */}
       <ul className="flex gap-2">
         <li className=" text-lotion text-xl">
@@ -28,6 +29,7 @@ const Book = () => (
         {/* <PlotSummary /> */}
       </div>
     </div>
+    <AlsoLike />
   </div>
 );
 

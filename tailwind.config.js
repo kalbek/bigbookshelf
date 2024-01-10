@@ -34,6 +34,8 @@ module.exports = {
         cultured: "#f6f6f6",
         blackbg: "#2A2C2E",
         crayola: "#F4CE47",
+        lighterbg: "#f6f4f0",
+        verydarkgray: "#20201f",
       },
     },
   },
