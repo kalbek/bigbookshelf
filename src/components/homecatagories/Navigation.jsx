@@ -60,7 +60,7 @@ export default function Navigation() {
           <nav>
             <ul className="hidden lg:mt-2 lg:flex md:grid md:grid-cols-3 lg:gap-[1.5vw] md:gap-1 text-white   text-[1.4rem] font-light">
               <li className="">
-                <a href="./products">Books</a>
+                <a href="./books">Books</a>
               </li>
               <li className="">Authors</li>
               <li className="">
