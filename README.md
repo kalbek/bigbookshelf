@@ -1,5 +1,8 @@
 <a name="readme-top"></a>
-![bookstore](https://github.com/kalbek/bookstore/assets/44664009/9d1e5213-9aea-4157-a2b0-fe9115917ea8)
+<span align="center">
+ ![bigbookshelf](https://github.com/kalbek/bigbookshelf/blob/main/bigbookshelf.png)
+</span>
+ 
 
 # 📗 Table of Contents
 
