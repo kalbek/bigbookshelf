@@ -8,7 +8,7 @@ export const Reviews = [
     },
     {
         img: "",
-        name: "Lisa Anderson",
+        name: "Lisa Anderson ",
         starCount: 1,
         description: "",
         date: "",
