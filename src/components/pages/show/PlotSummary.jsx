@@ -2,7 +2,7 @@ import React from "react";
 
 const PlotSummary = () => (
   <>
-    <div className="flex flex-col items-start w-1/3">
+    <div className="flex flex-col items-start w-full md:w-1/3">
       {/* plot summary */}
       <>
         <div className="   h-full flex flex-col items-start bg-lotion p-8 rounded-3xl gap-2">
@@ -42,11 +42,7 @@ const PlotSummary = () => (
         <div className=" w-full h-full flex flex-col items-start bg-lotion p-8 rounded-3xl gap-4 ">
           <div className="flex justify-between text-right whitespace-nowrap w-[100%]">
             <p className="text-black font-medium text-2xl">RECEPTION</p>
-            <img
-              srcSet="right-down.svg"
-              alt=""
-              className="object-cover"
-            />
+            <img srcSet="right-down.svg" alt="" className="object-cover" />
           </div>
         </div>
       </>

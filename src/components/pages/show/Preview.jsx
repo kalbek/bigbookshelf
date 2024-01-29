@@ -1,10 +1,10 @@
 import React from "react";
 import BuyButton from "../utilities/BuyButton";
 
-const Preview = ({ image, authorName, bookTitle }) => (
+const Preview = () => (
   <div>
     <div className="flex">
-      <div className="flex gap-4 mt-8   relative">
+      <div className="flex flex-col md:flex-row gap-4 mt-8   relative">
         <img srcSet="muscle.png" alt="" className="rounded-2xl object-cover" />
         <div className="flex flex-col items-start justify-between gap-4">
           <div className="flex flex-col items-start justify-between gap-2">

@@ -22,7 +22,7 @@ const Book = () => (
         <li className="text-philippinegray text-xl">Muscle, Alan Trotter</li>
       </ul>
       {/* book preview */}
-      <div className="flex  justify-between w-[100%]">
+      <div className="flex flex-col md:flex-row  justify-between w-[100%] gap-12 md:gap-2">
         <Preview />
         {/* <Preview /> */}
         <PlotSummary />
