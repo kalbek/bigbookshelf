@@ -2,6 +2,7 @@ import React from "react";
 import Preview from "./Preview";
 import PlotSummary from "./PlotSummary";
 import AlsoLike from "./AlsoLike";
+import ReadersReveiw from "./ReadersReview";
 
 const Book = () => (
   <div className="flex flex-col items-center m-4 bg-lighterbg ">
@@ -13,7 +14,7 @@ const Book = () => (
         </li>
         <li>|</li>
         <li className=" text-xl">
-          <a href="/books"> Boo ks</a>
+          <a href="/books"> Books</a>
         </li>
         <li>|</li>
         <li className=" text-xl">All&nbsp;books</li>
@@ -30,6 +31,7 @@ const Book = () => (
       </div>
     </div>
     <AlsoLike />
+    <ReadersReveiw />
   </div>
 );
 
