@@ -1,6 +1,6 @@
 const Reviews = [
   {
-    img: "",
+    img: "mott.png",
     name: "Geoffrey Mott",
     starCount: 4,
     description:
@@ -8,7 +8,7 @@ const Reviews = [
     date: "10 October 2022",
   },
   {
-    img: "",
+    img: "lisa.png",
     name: "Lisa Anderson ",
     starCount: 1,
     description:
@@ -16,7 +16,7 @@ const Reviews = [
     date: "10 October 2022",
   },
   {
-    img: "",
+    img: "florencio.png",
     name: "Florencio Dorrance",
     starCount: 5,
     description:
@@ -24,7 +24,7 @@ const Reviews = [
     date: "10 October 2022",
   },
   {
-    img: "",
+    img: "anne.png",
     name: "Anne Powel",
     starCount: 5,
     description:
