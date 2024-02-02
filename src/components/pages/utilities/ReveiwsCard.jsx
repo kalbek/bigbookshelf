@@ -11,9 +11,9 @@ export default function ReviewsCard({
     <>
       <div className="h-full relative bg-white padding-4 flex flex-col items-start gap-2 p-6 rounded-2xl w-auto">
         <div className="w-full  flex justify-between">
-          <div className="flex justify-between gap-1">
+          <div className="flex justify-between items-center gap-4">
             <img srcSet={blob} alt="book img" className="w-[100%]" />
-            <p className="text-xl whitespace-nowrap">{reviewerName}</p>
+            <p className="text-2xl whitespace-nowrap">{reviewerName}</p>
           </div>
           <p className="text-xl">{date}</p>
         </div>
@@ -24,9 +24,10 @@ export default function ReviewsCard({
           </div>
           &nbsp;
         </div>
-        <div className="w-full outline ouline-2">
-          <p className="text-lg">{review}</p>
+        <div className="h-2/3 w-full">
+          <p className="text-xl">{review}</p>
         </div>
+        <u className="text-2xl">READ MORE</u>
       </div>
     </>
   );

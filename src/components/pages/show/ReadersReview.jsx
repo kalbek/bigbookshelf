@@ -10,7 +10,7 @@ export default function ReadersReveiw() {
           {" "}
           READERS REVIEW
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="pb-6 px-6 grid grid-cols-1 md:grid-cols-2 gap-4">
           {Reviews.map((review, index) => (
             <div key={0}>
               <ReviewsCard
